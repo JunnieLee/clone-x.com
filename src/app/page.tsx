@@ -5,13 +5,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main
-      style={{
-        background: "white",
-        display: "flex",
-        width: "100vw",
-      }}
-    >
+    <>
       <aside className={styles.left}>
         <Image src={Logo} alt="logo" />
       </aside>
@@ -26,6 +20,6 @@ export default function Home() {
           로그인
         </Link>
       </section>
-    </main>
+    </>
   );
 }
