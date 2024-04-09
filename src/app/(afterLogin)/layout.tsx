@@ -1,11 +1,11 @@
-export default async function HomeLayout({
+export default async function AfterLoginLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
     <div>
-      <p>홈 레이아웃</p>
+      <p>애프터 로그인 레이아웃</p>
       {children}
     </div>
   );

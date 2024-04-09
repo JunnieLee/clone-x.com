@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main>
-      <p>hi</p>
+      <p>hi I am login page</p>
     </main>
   );
 }
