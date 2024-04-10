@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main>
-      <p>hi</p>
+      <p>회원가입 모달</p>
     </main>
   );
 }
