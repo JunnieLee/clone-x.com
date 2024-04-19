@@ -6,6 +6,8 @@ import { useSelectedLayoutSegment } from "next/navigation";
 
 export default function NavMenu() {
   const segment = useSelectedLayoutSegment();
+  // useSelectedLayoutSegment는 layout.tsx에서 import한 컴포넌트만 쓸 수 있음.
+  // page.tsx에서 쓰면 무조건 null이 나옴.
 
   const me = {
     // 임시로 내 정보 있는 것처럼
