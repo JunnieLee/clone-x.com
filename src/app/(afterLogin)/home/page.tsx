@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main>
-      <p>쪽지 페이지</p>
+      <p>홈 페이지</p>
     </main>
   );
 }

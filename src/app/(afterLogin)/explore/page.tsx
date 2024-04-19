@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main>
-      <p>hi</p>
+      <p>검색 페이지</p>
     </main>
   );
 }

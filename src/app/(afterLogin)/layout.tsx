@@ -2,6 +2,7 @@ import Link from "next/link";
 import styles from "./layout.module.css";
 import Logo from "@assets/logo.png";
 import Image from "next/image";
+import NavMenu from "./_component/NavMenu";
 
 export default async function AfterLoginLayout({
   children,
@@ -18,6 +19,11 @@ export default async function AfterLoginLayout({
                 <Image src={Logo} alt="logo" width={40} height={40} />
               </div>
             </Link>
+            <nav>
+              <ul>
+                <NavMenu />
+              </ul>
+            </nav>
           </div>
         </section>
       </header>
